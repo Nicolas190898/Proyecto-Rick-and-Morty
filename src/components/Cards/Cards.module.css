@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Alinear horizontalmente las cartas en el centro */
+  
+  
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; /* Cambiar a una dirección de columna para que las cartas se apilen verticalmente */
+    align-items: center; /* Alinear verticalmente las cartas en el centro */
+  }
+}
